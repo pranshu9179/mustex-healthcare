@@ -66,10 +66,10 @@ export default function MissionValues() {
 
       {/* Header */}
       <div className="relative max-w-7xl mx-auto text-center mb-14 px-6">
-        <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900">
+        <h2 className="text-2xl md:text-4xl font-extrabold text-gray-900">
           Our Mission & Values
         </h2>
-        <p className="text-gray-600 mt-3 text-lg">
+        <p className="text-gray-600 mt-3 text-md">
           The foundation of everything we create.
         </p>
 

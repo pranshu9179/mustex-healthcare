@@ -175,7 +175,7 @@ export default function FullProductsSection() {
         <motion.h3
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
-          className="text-4xl md:text-5xl font-extrabold text-gray-900"
+          className="text-2xl md:text-4xl font-extrabold text-gray-900"
         >
           Our Premium Product Line
         </motion.h3>
@@ -183,7 +183,7 @@ export default function FullProductsSection() {
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          className="text-gray-700 mt-3 text-lg"
+          className="text-gray-700 mt-3 text-md"
         >
           Scientifically formulated. Herbal-based. Clinically trusted.
         </motion.p>

@@ -64,11 +64,11 @@ export default function TestimonialsSection() {
       <div className="absolute bottom-0 right-0 w-72 h-72 bg-pink-300/30 blur-[100px] rounded-full"></div>
 
       {/* Header */}
-      <div className="relative max-w-4xl mx-auto text-center mb-16 px-6">
-        <h3 className="text-4xl md:text-5xl font-extrabold text-gray-900">
+      <div className="relative max-w-4xl mx-auto text-center mb-8 px-6">
+        <h3 className="text-2xl md:text-5xl font-extrabold text-gray-900">
           Trusted by Thousands
         </h3>
-        <p className="text-gray-600 mt-3 text-lg">
+        <p className="text-gray-600 mt-3 text-md">
           Real stories from real patients who experienced positive change.
         </p>
 

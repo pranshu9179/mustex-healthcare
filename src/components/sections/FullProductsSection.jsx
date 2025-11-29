@@ -208,7 +208,7 @@ export default function FullProductsSection() {
       </div>
 
       {/* CTA Button */}
-      <div className="text-center mt-16">
+      <div className="text-center mt-4">
         <motion.a
           href="/products"
           whileHover={{ scale: 1.05 }}

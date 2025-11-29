@@ -11,7 +11,7 @@ import logo from "../assets/logo.jpg"; // update if needed
 
 export default function Footer() {
   return (
-    <footer className=" bg-white pt-12 pb-6 border-t border-gray-200">
+    <footer className=" bg-white pt-6 pb-6 border-t-2 border-gray-500">
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-10">
 
         {/* BRAND */}

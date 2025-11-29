@@ -33,7 +33,7 @@ import Footer from "../components/Footer";
 import BrandStory from "../components/sections/BrandStory";
 import MissionValues from "../components/sections/MissionValues";
 import TestimonialsSection from "../components/sections/TestimonialsSection";
-// import CTASection from "../components/sections/CTASection";
+import CTASection from "../components/sections/CTASection";
 
 export default function About() {
   return (
@@ -42,7 +42,7 @@ export default function About() {
       <BrandStory />
       <MissionValues />
       <TestimonialsSection />
-      {/* <CTASection /> */}
+      <CTASection />
       <Footer />
     </>
   );

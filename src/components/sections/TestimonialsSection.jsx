@@ -32,8 +32,6 @@
 //   );
 // }
 
-
-
 import { motion } from "framer-motion";
 import { Star } from "lucide-react";
 
@@ -42,23 +40,22 @@ export default function TestimonialsSection() {
     {
       text: "ZeroDiab has helped me stabilize my sugar levels naturally. No side effects and noticeable results!",
       name: "Amit Sharma",
-      avatar: "https://i.pravatar.cc/150?img=32"
+      avatar: "https://i.pravatar.cc/150?img=32",
     },
     {
       text: "Albumex boosted my recovery and energy. One of the best supplements I’ve tried!",
       name: "Priya Patel",
-      avatar: "https://i.pravatar.cc/150?img=47"
+      avatar: "https://i.pravatar.cc/150?img=47",
     },
     {
       text: "Callfizz-Plus improved my bone strength significantly. Truly effective for daily wellness.",
       name: "Rahul Verma",
-      avatar: "https://i.pravatar.cc/150?img=12"
-    }
+      avatar: "https://i.pravatar.cc/150?img=12",
+    },
   ];
 
   return (
     <section className="relative py-6 bg-gradient-to-br from-white via-purple-50/40 to-pink-50/40 overflow-hidden">
-      
       {/* Background Shapes */}
       <div className="absolute -top-10 left-0 w-72 h-72 bg-purple-300/30 blur-[90px] rounded-full"></div>
       <div className="absolute bottom-0 right-0 w-72 h-72 bg-pink-300/30 blur-[100px] rounded-full"></div>
@@ -77,7 +74,6 @@ export default function TestimonialsSection() {
 
       {/* Testimonials Grid */}
       <div className="relative max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 px-6">
-
         {reviews.map((review, i) => (
           <motion.div
             key={i}
@@ -116,12 +112,9 @@ export default function TestimonialsSection() {
             </p>
 
             {/* Name */}
-            <h4 className="mt-5 font-semibold text-gray-900">
-              {review.name}
-            </h4>
+            <h4 className="mt-5 font-semibold text-gray-900">{review.name}</h4>
           </motion.div>
         ))}
-
       </div>
     </section>
   );

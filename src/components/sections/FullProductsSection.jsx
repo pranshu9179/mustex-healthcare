@@ -1,72 +1,3 @@
-// import AnimatedProductCard from "../AnimatedProductCard";
-// // import { products } from "../../data/products";
-
-// import product from "../../assets/zero.jpg"
-
-// export default function FullProductsSection() {
-// const products = [
-//   {
-//     id: "zerodiab",
-//     name: "ZeroDiab",
-//     short: "Anti-Diabetic Syrup — 300ml",
-//     image: product,
-//     color: "bg-purple-600",
-//     features: [
-//       "Herbal blend",
-//       "Zero complications approach",
-//       "Clinically informed",
-//     ],
-//   },
-//   {
-//     id: "albumex",
-//     name: "Albumex",
-//     short: "High Quality Protein",
-//     image: product,
-//     color: "bg-rose-600",
-//     features: [
-//       "Complete amino acids",
-//       "Easily digestible",
-//       "Sugar free option",
-//     ],
-//   },
-//   {
-//     id: "callfizz",
-//     name: "Callfizz-Plus",
-//     short: "Bone Mineralization Tablets",
-//     image: product,
-//     color: "bg-emerald-600",
-//     features: ["Calcium + D3", "Effervescent tablets", "Great for all ages"],
-//   },
-//   {
-//     id: "myotex",
-//     name: "Myotex-Plus",
-//     short: "PCOS Support",
-//     image: product,
-//     color: "bg-pink-500",
-//     features: [
-//       "Regulates cycles",
-//       "Supports fertility",
-//       "Rich micronutrient profile",
-//     ],
-//   },
-// ];
-
-//   return (
-//     <section className="py-20 bg-white">
-//       <div className="max-w-7xl mx-auto text-center mb-12">
-//         <h3 className="text-4xl font-bold text-gray-900">Our Complete Product Line</h3>
-//         <p className="text-gray-600 mt-2">Herbal-based. Clinically informed.</p>
-//       </div>
-
-//       <div className="max-w-7xl mx-auto grid sm:grid-cols-2 lg:grid-cols-4 gap-8 px-6">
-//         {products.map((p) => (
-//           <AnimatedProductCard key={p.id} product={p} large />
-//         ))}
-//       </div>
-//     </section>
-//   );
-// }
-
 import { motion } from "framer-motion";
 import AnimatedProductCard from "../AnimatedProductCard";
 
@@ -105,31 +36,31 @@ export default function FullProductsSection() {
       features: ["Complete amino acids", "Easy to digest", "Sugar-free option"],
     },
     {
-      id: "callfizz1",
+      id: "callfizzplus",
       name: "Callfizz-Plus",
       short: "Bone Mineralization Tablets",
       image: imgCallfizz,
       color: "bg-emerald-600",
       features: ["Calcium + D3", "Effervescent tablets", "Ideal for adults"],
     },
+    // {
+    //   id: "callfizz2",
+    //   name: "Callfizz-Plus Orange",
+    //   short: "Effervescent Wellness Drink",
+    //   image: imgCallfizz2,
+    //   color: "bg-orange-600",
+    //   features: ["Strong bones", "Rich taste", "Orange vitamin load"],
+    // },
+    // {
+    //   id: "callfizz3",
+    //   name: "Callfizz-Plus Pro",
+    //   short: "Advanced Mineral Supplement",
+    //   image: imgCallfizz3,
+    //   color: "bg-blue-600",
+    //   features: ["Fast absorption", "Extra strength", "Daily health"],
+    // },
     {
-      id: "callfizz2",
-      name: "Callfizz-Plus Orange",
-      short: "Effervescent Wellness Drink",
-      image: imgCallfizz2,
-      color: "bg-orange-600",
-      features: ["Strong bones", "Rich taste", "Orange vitamin load"],
-    },
-    {
-      id: "callfizz3",
-      name: "Callfizz-Plus Pro",
-      short: "Advanced Mineral Supplement",
-      image: imgCallfizz3,
-      color: "bg-blue-600",
-      features: ["Fast absorption", "Extra strength", "Daily health"],
-    },
-    {
-      id: "gluzen",
+      id: "gluzenq",
       name: "Gluzen-Q",
       short: "Gut + Wellness Formula",
       image: imgGluzen,
@@ -137,29 +68,29 @@ export default function FullProductsSection() {
       features: ["Digestion support", "Energy booster", "Q-enzyme blend"],
     },
     {
-      id: "myotex",
+      id: "myotexplus",
       name: "Myotex-Plus",
       short: "PCOS Support Formula",
       image: imgMyotex,
       color: "bg-pink-600",
       features: ["Regulates cycles", "Supports fertility", "Clinically tested"],
     },
-    {
-      id: "myotexplus",
-      name: "Myotex+ Advance",
-      short: "Hormonal Support Supplement",
-      image: imgMyotexPlus,
-      color: "bg-fuchsia-600",
-      features: ["Improves metabolism", "Hormonal balance", "Women's health"],
-    },
-    {
-      id: "nutrient",
-      name: "Nutrient Care",
-      short: "Daily Immunity Boost",
-      image: imgNutrient,
-      color: "bg-indigo-600",
-      features: ["Vitamin-rich", "Daily support", "Natural extracts"],
-    },
+    // {
+    //   id: "myotexplus",
+    //   name: "Myotex+ Advance",
+    //   short: "Hormonal Support Supplement",
+    //   image: imgMyotexPlus,
+    //   color: "bg-fuchsia-600",
+    //   features: ["Improves metabolism", "Hormonal balance", "Women's health"],
+    // },
+    // {
+    //   id: "nutrient",
+    //   name: "Nutrient Care",
+    //   short: "Daily Immunity Boost",
+    //   image: imgNutrient,
+    //   color: "bg-indigo-600",
+    //   features: ["Vitamin-rich", "Daily support", "Natural extracts"],
+    // },
   ];
 
   return (

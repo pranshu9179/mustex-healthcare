@@ -33,7 +33,7 @@ export default function FeaturedProducts() {
         ],
       },
       {
-        id: "callfizz",
+        id: "callfizzplus",
         name: "Callfizz-Plus",
         short: "Bone Mineralization Tablets",
         image: callfizz,

@@ -35,7 +35,7 @@ import Home from "../pages/Home";
 import ProductsPage from "../pages/ProductsPage";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
-import ProductDetail from "../components/sections/ProductDetail";  // ⭐ Add this
+import ProductDetail from "../components/productsDetails/ProductDetails";  // ⭐ Add this
 
 export default function AnimatedRoutes() {
   const location = useLocation();

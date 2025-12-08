@@ -7,7 +7,7 @@
 // }
 
 import { Mail, Phone, MapPin } from "lucide-react";
-import logo from "../assets/logo.jpg"; // update if needed
+import logo from "../assets/logo.png"; // update if needed
 
 export default function Footer() {
   return (
@@ -19,7 +19,7 @@ export default function Footer() {
           <img
             src={logo}
             alt="MusTex Healthcare"
-            className="w-12 h-12 object-contain mb-3 rounded"
+            className="w-24 h-20 object-cover mb-3 rounded"
           />
           <h3 className="text-xl font-bold text-gray-900">MusTex Healthcare</h3>
           <p className="text-gray-600 mt-2 max-w-xs">

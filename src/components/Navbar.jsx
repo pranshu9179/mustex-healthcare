@@ -46,7 +46,7 @@ import { NavLink, Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import logo from "../assets/logo.jpg"; // <--- your logo here
+import logo from "../assets/logo.png"; // <--- your logo here
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);

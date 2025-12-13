@@ -33,26 +33,25 @@
 // }
 
 import { motion } from "framer-motion";
-import { Star } from "lucide-react";
+import { Star, CircleUser } from "lucide-react";
+
 
 export default function TestimonialsSection() {
-  const reviews = [
-    {
-      text: "ZeroDiab has helped me stabilize my sugar levels naturally. No side effects and noticeable results!",
-      name: "Amit Sharma",
-      avatar: "https://i.pravatar.cc/150?img=32",
-    },
-    {
-      text: "Albumex boosted my recovery and energy. One of the best supplements I’ve tried!",
-      name: "Priya Patel",
-      avatar: "https://i.pravatar.cc/150?img=47",
-    },
-    {
-      text: "Callfizz-Plus improved my bone strength significantly. Truly effective for daily wellness.",
-      name: "Rahul Verma",
-      avatar: "https://i.pravatar.cc/150?img=12",
-    },
-  ];
+const reviews = [
+  {
+    text: "ZeroDiab has helped me stabilize my sugar levels naturally. No side effects and noticeable results!",
+    name: "Amit Sharma",
+  },
+  {
+    text: "Albumex boosted my recovery and energy. One of the best supplements I’ve tried!",
+    name: "Priya Patel",
+  },
+  {
+    text: "Callfizz-Plus improved my bone strength significantly. Truly effective for daily wellness.",
+    name: "Rahul Verma",
+  },
+];
+
 
   return (
     <section className="relative py-6 bg-gradient-to-br from-white via-purple-50/40 to-pink-50/40 overflow-hidden">
@@ -85,13 +84,13 @@ export default function TestimonialsSection() {
             className="bg-white/80 backdrop-blur-md p-4 rounded-2xl shadow-lg border border-white/60 hover:shadow-2xl transition"
           >
             {/* Avatar */}
-            <div className="flex justify-center">
-              <img
-                src={review.avatar}
-                className="w-16 h-16 rounded-full border-2 border-purple-300 shadow"
-                alt="avatar"
-              />
-            </div>
+{/* Avatar Icon */}
+<div className="flex justify-center">
+  <div className="w-16 h-16 rounded-full bg-gray-200 border border-gray-300 flex items-center justify-center shadow-sm">
+    <CircleUser size={34} className="text-gray-800" />
+  </div>
+</div>
+
 
             {/* Stars */}
             <div className="flex justify-center mt-4 text-yellow-500">

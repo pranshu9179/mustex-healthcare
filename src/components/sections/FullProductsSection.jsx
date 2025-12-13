@@ -139,7 +139,7 @@ export default function FullProductsSection() {
       </div>
 
       {/* CTA Button */}
-      <div className="text-center mt-4">
+      {/* <div className="text-center mt-4">
         <motion.a
           href="/products"
           whileHover={{ scale: 1.05 }}
@@ -148,7 +148,7 @@ export default function FullProductsSection() {
         >
           View All Products →
         </motion.a>
-      </div>
+      </div> */}
     </section>
   );
 }

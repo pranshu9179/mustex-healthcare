@@ -1,5 +1,7 @@
 import AnimatedRoutes from "./router/AnimatedRoutes";
 
-export default function App() {
+const App = () => {
   return <AnimatedRoutes />;
-}
+};
+
+export default App;

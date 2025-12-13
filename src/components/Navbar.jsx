@@ -53,8 +53,8 @@ export default function Navbar() {
 
   const navItems = [
     { name: "Home", path: "/" },
-    { name: "Products", path: "/products" },
     { name: "About", path: "/about" },
+    { name: "Products", path: "/products" },
     { name: "Contact", path: "/contact" },
   ];
 
@@ -95,12 +95,12 @@ export default function Navbar() {
             </NavLink>
           ))}
 
-          <Link
+          {/* <Link
             to="/products"
             className="bg-gradient-to-r from-purple-600 to-pink-500 text-white px-5 py-2 rounded-lg shadow hover:opacity-90 transition"
           >
             Buy Now
-          </Link>
+          </Link> */}
         </nav>
 
         {/* MOBILE MENU BUTTON */}
@@ -141,13 +141,13 @@ export default function Navbar() {
                 </NavLink>
               ))}
 
-              <Link
+              {/* <Link
                 to="/products"
                 onClick={() => setOpen(false)}
                 className="text-center bg-gradient-to-r from-purple-600 to-pink-500 text-white px-5 py-3 rounded-lg shadow hover:opacity-90 transition"
               >
                 Buy Now
-              </Link>
+              </Link> */}
             </div>
           </motion.div>
         )}

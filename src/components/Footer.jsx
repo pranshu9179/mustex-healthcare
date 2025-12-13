@@ -70,6 +70,11 @@ export default function Footer() {
         <p className="text-gray-500 text-sm">
           © {new Date().getFullYear()} MusTex Healthcare — All rights reserved.
         </p>
+
+          {/* NEW LINE */}
+  <p className="text-gray-400 text-sm mt-1">
+    Design by <span className="font-medium text-gray-600">Sky Info Group</span>
+  </p>
       </div>
     </footer>
   );
